@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#wrapper{
+ width: 970px;
+ margin: 0px auto; /* 0 top/bottom, auto left/right: centers my wrapper in the browser*/
+ color: white;
+}
+
+#top{
+    
+    background-color:#245076;
+}
+
+
+
+#header img{
+    width: 340px; /*edited margin (added #header img above header-right for flow) on header-right elements to large 
+    for inline block. Subtracted from content of image by 240px difference so that all elements would fit
+    within that in-line block perfectly*/
+    padding: 0px 0px 0px 15px;
+}
+
+#header-right{
+    display:inline-block;
+    margin-left: 275px;
+    text-align: center; /* see notes about, display: inline-block and margin-left, above.*/
+    vertical-align: top;
+}
+
+#header-right a{
+    color:#a8a230;
+}
+
+#header-right span {
+    color: black;
+}
+
+#search{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #444444;
+    padding: 15px 7px 4px 10px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#search input{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid silver;
+    box-shadow: 1px 1px 1px black;
+}
+
+#search button{
+    text-align: center;
+    color: white;
+    padding: 4px 7px 4px 7px;
+    background-color: #245076;
+    border: 2px 1px 1px 2px solid silver;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#nav{
+    width: 800px;
+    list-style: none;
+    background-color: #407bad;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 25px;
+
+}
+
+#nav li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+#side-nav{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+
+#side-nav li{
+    margin: 10px;
+}
+#side-nav a{
+    color:white;
+}
+
+#side-nav span{
+    color: #ccc53a;
+    font-size: 10px;
+}
+
+#main_content{
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+}
+
+#main_content p{
+    padding: 7px 0px;
+    font-size: 15px;
+}
+
+#main_content ul{
+    margin-bottom: 12px;
+}
+#main_content li{
+    list-style: none;
+    color: #dbd441;
+    font-style: italic;
+    font-size: 18px;
+    padding: 7px 0px;
+}
+
+#middle {
+    width: 970px;
+    color:black;
+    background-color: white;
+    padding: 10px 0px 10px 100px;
+}
+#middle div {
+    text-align:center;
+    color: black;
+    width: 400px;
+    border-top: 4px solid #7eb8eb;
+    display: inline-block;
+}
+
+#middle p{
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+#middle div ul{
+    list-style-type: square;
+    font-size: 14px;
+    margin-left: 75px;
+}
+
+#middle div a{
+    text-decoration: none;
+    color: #51a1d6;
+    margin-left: -55px;
+}
+
+#middle div span{
+    color:#51a1d6;
+}
+
+#box1 {
+    vertical-align: top;
+}
+
+#box2 {
+    margin-left: 20px;
+}
+
+#aboutlinks{
+    list-style: none;
+    
+}
+
+#aboutlinks{
+    margin-left: 210px;
+}
+
+#aboutlinks li{
+    display:inline-block;
+    padding: 40px 30px 10px 30px;
+}
+
+#aboutlinks a{
+    text-decoration: none;
+    color: #568cbb;
+}
+
+#aboutlinks h6{
+    margin-left: 200px;
+    color:#568cbb;
+    padding: 5px;
+}
